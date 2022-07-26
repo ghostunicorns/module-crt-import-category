@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © GhostUnicorns spa. All rights reserved.
+  ~ See LICENSE and/or COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="GhostUnicorns_CrtImportCategory">
+        <sequence>
+            <module name="GhostUnicorns_CrtBase"/>
+            <module name="GhostUnicorns_CrtUtils"/>
+            <module name="GhostUnicorns_FdiCategory"/>
+        </sequence>
+    </module>
+</config>

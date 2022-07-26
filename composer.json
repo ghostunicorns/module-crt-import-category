@@ -1,0 +1,37 @@
+{
+    "name": "ghostunicorns/module-crt-import-category",
+    "description": "GhostUnicorns Crt Import Category module",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "ghostunicorns/module-crt-base": "~1.0.0",
+        "ghostunicorns/module-crt-utils": "~1.0.0",
+        "ghostunicorns/module-fdi-category": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Danilo Argentiero",
+            "email": "argentiero.danilo@gmail.com",
+            "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+            "role": "Software Architect"
+        },
+        {
+            "name": "Riccardo Ugolini",
+            "email": "riccardo.ugolini@gmail.com",
+            "homepage": "https://www.linkedin.com/in/riccardougolini/",
+            "role": "Software Architect"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GhostUnicorns\\CrtImportCategory\\": ""
+        }
+    }
+}
