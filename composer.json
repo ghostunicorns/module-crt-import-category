@@ -5,8 +5,8 @@
     "require": {
         "magento/framework": "*",
         "magento/module-catalog": "*",
-        "ghostunicorns/module-crt-base": "~1.0.0",
-        "ghostunicorns/module-crt-utils": "~1.0.0",
+        "ghostunicorns/module-crt-base": "^1.0.0",
+        "ghostunicorns/module-crt-utils": "^1.0.0",
         "ghostunicorns/module-fdi-category": "^1.0"
     },
     "authors": [
